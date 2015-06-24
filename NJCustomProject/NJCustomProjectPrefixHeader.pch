@@ -1,0 +1,18 @@
+//
+//  NJCustomProjectPrefixHeader.pch
+//  NJCustomProject
+//
+//  Created by NJ on 15/5/11.
+//  Copyright (c) 2015年 NJ. All rights reserved.
+//
+
+#ifndef NJCustomProject_NJCustomProjectPrefixHeader_pch
+#define NJCustomProject_NJCustomProjectPrefixHeader_pch
+
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#import <UIKit/UIKit.h>
+#import "NJView.h"
+#import "NJConstants.h"
+#endif
