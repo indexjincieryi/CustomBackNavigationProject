@@ -155,7 +155,6 @@
 		4213C0701B1AC91A00F9FE31 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4213BFD01B1AC91A00F9FE31 /* 3.jpg */; };
 		4213C0711B1AC91A00F9FE31 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4213BFD11B1AC91A00F9FE31 /* 4.jpg */; };
 		4213C0721B1AC91A00F9FE31 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4213BFD21B1AC91A00F9FE31 /* 5.jpg */; };
-		4213C0731B1AC91A00F9FE31 /* um_menu_icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4213BFD31B1AC91A00F9FE31 /* um_menu_icon_back.png */; };
 		4213C0741B1AC91A00F9FE31 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFD61B1AC91A00F9FE31 /* DetailViewController.m */; };
 		4213C0751B1AC91A00F9FE31 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFD81B1AC91A00F9FE31 /* FirstViewController.m */; };
 		4213C0761B1AC91A00F9FE31 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFDA1B1AC91A00F9FE31 /* FiveViewController.m */; };
@@ -164,6 +163,7 @@
 		4213C0791B1AC91A00F9FE31 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFE01B1AC91A00F9FE31 /* ThirdViewController.m */; };
 		4213C07A1B1AC91A00F9FE31 /* NJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFE31B1AC91A00F9FE31 /* NJView.m */; };
 		425D4F141B18045900BBBADF /* YTAPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 425D4F131B18045900BBBADF /* YTAPPManager.m */; };
+		42E7D03E1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -335,7 +335,6 @@
 		4213BFD01B1AC91A00F9FE31 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		4213BFD11B1AC91A00F9FE31 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		4213BFD21B1AC91A00F9FE31 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		4213BFD31B1AC91A00F9FE31 /* um_menu_icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = um_menu_icon_back.png; sourceTree = "<group>"; };
 		4213BFD51B1AC91A00F9FE31 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4213BFD61B1AC91A00F9FE31 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		4213BFD71B1AC91A00F9FE31 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -353,6 +352,7 @@
 		4213C07D1B1AC98200F9FE31 /* NJConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJConstants.h; sourceTree = "<group>"; };
 		425D4F121B18045900BBBADF /* YTAPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAPPManager.h; sourceTree = "<group>"; };
 		425D4F131B18045900BBBADF /* YTAPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTAPPManager.m; sourceTree = "<group>"; };
+		42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "um_menu_icon_back@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,10 +462,10 @@
 		4213BF3C1B1AC91900F9FE31 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */,
 				4213BF3D1B1AC91900F9FE31 /* gationBar.png */,
 				4213BF3E1B1AC91900F9FE31 /* image */,
 				4213BFCD1B1AC91A00F9FE31 /* image2 */,
-				4213BFD31B1AC91A00F9FE31 /* um_menu_icon_back.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -900,6 +900,7 @@
 				4213C0611B1AC91A00F9FE31 /* helpphoto_one.png in Resources */,
 				4213C02D1B1AC91A00F9FE31 /* composedingwei.png in Resources */,
 				4213C0181B1AC91A00F9FE31 /* appdetail_background@2x.png in Resources */,
+				42E7D03E1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png in Resources */,
 				4213C0301B1AC91A00F9FE31 /* Default2@2x.png in Resources */,
 				4213C0671B1AC91A00F9FE31 /* user_background@2x.png in Resources */,
 				4213BFF21B1AC91A00F9FE31 /* account_help.png in Resources */,
@@ -939,7 +940,6 @@
 				4213C04F1B1AC91A00F9FE31 /* topic_Comment.png in Resources */,
 				4213BFE71B1AC91A00F9FE31 /* gationBar.png in Resources */,
 				4213C0471B1AC91A00F9FE31 /* tabBar_Slider.png in Resources */,
-				4213C0731B1AC91A00F9FE31 /* um_menu_icon_back.png in Resources */,
 				4213C0491B1AC91A00F9FE31 /* tabbar_subject.png in Resources */,
 				4213C01B1B1AC91A00F9FE31 /* appproduct_appdefault.png in Resources */,
 				4213C0051B1AC91A00F9FE31 /* category_Education.jpg in Resources */,

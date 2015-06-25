@@ -7,26 +7,30 @@
 //
 
 #import "FirstViewController.h"
-
+#import "DetailViewController.h"
 @interface FirstViewController ()
+@property (nonatomic, strong) DetailViewController *detailVC;
 @end
 
 @implementation FirstViewController
 
+- (DetailViewController *)detailVC{
+    if (!_detailVC) {
+        _detailVC = [[DetailViewController alloc] init];
+    }
+    return _detailVC;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton  *btn = [NJView createButtonWithFrame:CGRectMake(100, 100, 100, 100) title:@"Button" bgColor:[UIColor blueColor] radius:50 target:self action:@selector(btnClick:)];
+    UIButton  *btn = [NJView createButtonWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 100, 100, 100) title:@"点击进入" bgColor:[UIColor blueColor] radius:50 target:self action:@selector(btnClick:)];
     [self.view addSubview:btn];
-    
-    UIView *view = [NJView createActiveViewWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2-15, [UIScreen mainScreen].bounds.size.height/2-15, 30, 30)];
-    [self.view addSubview:view];
     
 }
 
 - (void)btnClick:(UIButton *)sender
 {
-    
+    [self.navigationController pushViewController:self.detailVC animated:YES];
 }
 
 
