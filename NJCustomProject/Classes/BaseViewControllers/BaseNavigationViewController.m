@@ -37,6 +37,7 @@
                                      }];
     
     [navBar setBackIndicatorImage:[UIImage imageNamed:@"um_menu_icon_back.png"]];
+    [navBar.backIndicatorImage setAccessibilityFrame:CGRectMake(0, 20, 64, 44)];
     [navBar setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"um_menu_icon_back.png"]];
 }
 

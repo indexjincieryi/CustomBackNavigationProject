@@ -164,6 +164,10 @@
 		4213C07A1B1AC91A00F9FE31 /* NJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFE31B1AC91A00F9FE31 /* NJView.m */; };
 		425D4F141B18045900BBBADF /* YTAPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 425D4F131B18045900BBBADF /* YTAPPManager.m */; };
 		42E7D03E1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */; };
+		7D6F950F1C3237310017BAFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F950C1C3237310017BAFF /* Default-568h@2x.png */; };
+		7D6F95101C3237310017BAFF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F950D1C3237310017BAFF /* Default.png */; };
+		7D6F95111C3237310017BAFF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F950E1C3237310017BAFF /* Default@2x.png */; };
+		7D6F95151C323B800017BAFF /* um_menu_icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F95141C323B800017BAFF /* um_menu_icon_back@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -353,6 +357,10 @@
 		425D4F121B18045900BBBADF /* YTAPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAPPManager.h; sourceTree = "<group>"; };
 		425D4F131B18045900BBBADF /* YTAPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTAPPManager.m; sourceTree = "<group>"; };
 		42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "um_menu_icon_back@2x.png"; sourceTree = "<group>"; };
+		7D6F950C1C3237310017BAFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D6F950D1C3237310017BAFF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D6F950E1C3237310017BAFF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D6F95141C323B800017BAFF /* um_menu_icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "um_menu_icon_back@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +418,9 @@
 		2C8D4EC41B0058C000FFC198 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D6F950C1C3237310017BAFF /* Default-568h@2x.png */,
+				7D6F950D1C3237310017BAFF /* Default.png */,
+				7D6F950E1C3237310017BAFF /* Default@2x.png */,
 				2C8D4EC51B0058C000FFC198 /* Info.plist */,
 				2C8D4EC61B0058C000FFC198 /* main.m */,
 				2C8D4F021B006C5700FFC198 /* NJCustomProjectPrefixHeader.pch */,
@@ -463,6 +474,7 @@
 			isa = PBXGroup;
 			children = (
 				42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */,
+				7D6F95141C323B800017BAFF /* um_menu_icon_back@3x.png */,
 				4213BF3D1B1AC91900F9FE31 /* gationBar.png */,
 				4213BF3E1B1AC91900F9FE31 /* image */,
 				4213BFCD1B1AC91A00F9FE31 /* image2 */,
@@ -822,6 +834,7 @@
 				4213C0411B1AC91A00F9FE31 /* tabbar_rank@2x.png in Resources */,
 				4213C0351B1AC91A00F9FE31 /* tabbar_account_press@2x.png in Resources */,
 				4213C0041B1AC91A00F9FE31 /* category_Catalogs.jpg in Resources */,
+				7D6F95101C3237310017BAFF /* Default.png in Resources */,
 				4213C05C1B1AC91A00F9FE31 /* filedd@2x.png in Resources */,
 				4213C04A1B1AC91A00F9FE31 /* tabbar_subject@2x.png in Resources */,
 				4213C0451B1AC91A00F9FE31 /* tabbar_reduceprice_press.png in Resources */,
@@ -884,6 +897,7 @@
 				4213C0591B1AC91A00F9FE31 /* egopv_left@2x.png in Resources */,
 				4213BFFE1B1AC91A00F9FE31 /* cate_list_bg.png in Resources */,
 				4213C0701B1AC91A00F9FE31 /* 3.jpg in Resources */,
+				7D6F95151C323B800017BAFF /* um_menu_icon_back@3x.png in Resources */,
 				4213C0081B1AC91A00F9FE31 /* category_Game.jpg in Resources */,
 				4213BFF91B1AC91A00F9FE31 /* buttonbar_action@2x.png in Resources */,
 				4213C0201B1AC91A00F9FE31 /* cate_list_bg1@2x.png in Resources */,
@@ -903,6 +917,7 @@
 				42E7D03E1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png in Resources */,
 				4213C0301B1AC91A00F9FE31 /* Default2@2x.png in Resources */,
 				4213C0671B1AC91A00F9FE31 /* user_background@2x.png in Resources */,
+				7D6F950F1C3237310017BAFF /* Default-568h@2x.png in Resources */,
 				4213BFF21B1AC91A00F9FE31 /* account_help.png in Resources */,
 				4213C04D1B1AC91A00F9FE31 /* topic_Cell_Bg.png in Resources */,
 				4213C0521B1AC91A00F9FE31 /* topic_Download@2x.png in Resources */,
@@ -943,6 +958,7 @@
 				4213C0491B1AC91A00F9FE31 /* tabbar_subject.png in Resources */,
 				4213C01B1B1AC91A00F9FE31 /* appproduct_appdefault.png in Resources */,
 				4213C0051B1AC91A00F9FE31 /* category_Education.jpg in Resources */,
+				7D6F95111C3237310017BAFF /* Default@2x.png in Resources */,
 				4213BFEB1B1AC91A00F9FE31 /* account_collect@2x.png in Resources */,
 				4213C0511B1AC91A00F9FE31 /* topic_Download.png in Resources */,
 			);
@@ -1032,7 +1048,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1067,7 +1083,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1078,7 +1094,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NJCustomProject/NJCustomProjectPrefixHeader.pch";
 				INFOPLIST_FILE = NJCustomProject/Info.plist;
@@ -1091,7 +1106,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NJCustomProject/NJCustomProjectPrefixHeader.pch";
 				INFOPLIST_FILE = NJCustomProject/Info.plist;

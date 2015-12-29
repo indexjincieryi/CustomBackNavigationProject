@@ -23,7 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIButton  *btn = [NJView createButtonWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 100, 100, 100) title:@"点击进入" bgColor:[UIColor blueColor] radius:50 target:self action:@selector(btnClick:)];
+    UIButton  *btn = [NJView createButtonWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width/2 - 50, 100, 100, 100) title:@"点击进入" bgColor:nil radius:0.f target:self action:@selector(btnClick:)];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateHighlighted];
     [self.view addSubview:btn];
     
 }

@@ -53,7 +53,7 @@
         }else{
 //            [item setFinishedSelectedImage:[UIImage imageNamed:selectImageNameArray[i]] withFinishedUnselectedImage:[UIImage imageNamed:UnselectImageNameArray[i]]];
 //            item.title=titleArray[i];
-            [item initWithTitle:titleArray[i] image:[UIImage imageNamed:UnselectImageNameArray[i]] selectedImage:[UIImage imageNamed:selectImageNameArray[i]]];
+            item = [[UITabBarItem alloc] initWithTitle:titleArray[i] image:[UIImage imageNamed:UnselectImageNameArray[i]] selectedImage:[UIImage imageNamed:selectImageNameArray[i]]];
         }
     }
     
