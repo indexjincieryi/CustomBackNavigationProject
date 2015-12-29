@@ -1,13 +1,9 @@
 
-
-<<<<<<< Updated upstream
-    Title:自定义系统返回按钮项目
-    333
-=======
-    Title:自定义系统返回按钮项目444
->>>>>>> Stashed changes
+    Title:  自定义系统返回按钮项目
+    
     // 1.取出设置主题的对象
     UINavigationBar *navBar = [UINavigationBar appearance];
+
 
     // 2.设置导航栏的背景图片
     NSString *navBarBg = nil;
@@ -20,9 +16,11 @@
     }
     [navBar setBackgroundImage:[UIImage imageNamed:navBarBg] forBarMetrics:UIBarMetricsDefault];
 
+
     //     3.标题
     [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]
     }];
+
 
     [navBar setBackIndicatorImage:[UIImage imageNamed:@"um_menu_icon_back.png"]];
     [navBar.backIndicatorImage setAccessibilityFrame:CGRectMake(0, 20, 64, 44)];
