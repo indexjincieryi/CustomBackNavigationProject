@@ -162,7 +162,6 @@
 		4213C0781B1AC91A00F9FE31 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFDE1B1AC91A00F9FE31 /* SecondViewController.m */; };
 		4213C0791B1AC91A00F9FE31 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFE01B1AC91A00F9FE31 /* ThirdViewController.m */; };
 		4213C07A1B1AC91A00F9FE31 /* NJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4213BFE31B1AC91A00F9FE31 /* NJView.m */; };
-		425D4F141B18045900BBBADF /* YTAPPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 425D4F131B18045900BBBADF /* YTAPPManager.m */; };
 		42E7D03E1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */; };
 		7D6F950F1C3237310017BAFF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F950C1C3237310017BAFF /* Default-568h@2x.png */; };
 		7D6F95101C3237310017BAFF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F950D1C3237310017BAFF /* Default.png */; };
@@ -354,8 +353,6 @@
 		4213BFE21B1AC91A00F9FE31 /* NJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJView.h; sourceTree = "<group>"; };
 		4213BFE31B1AC91A00F9FE31 /* NJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJView.m; sourceTree = "<group>"; };
 		4213C07D1B1AC98200F9FE31 /* NJConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJConstants.h; sourceTree = "<group>"; };
-		425D4F121B18045900BBBADF /* YTAPPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAPPManager.h; sourceTree = "<group>"; };
-		425D4F131B18045900BBBADF /* YTAPPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTAPPManager.m; sourceTree = "<group>"; };
 		42E7D03D1B3B9CB300B00EF8 /* um_menu_icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "um_menu_icon_back@2x.png"; sourceTree = "<group>"; };
 		7D6F950C1C3237310017BAFF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7D6F950D1C3237310017BAFF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -407,8 +404,6 @@
 				2C8D4EC91B0058C000FFC198 /* AppDelegate.m */,
 				2C8D4ECB1B0058C000FFC198 /* ViewController.h */,
 				2C8D4ECC1B0058C000FFC198 /* ViewController.m */,
-				425D4F121B18045900BBBADF /* YTAPPManager.h */,
-				425D4F131B18045900BBBADF /* YTAPPManager.m */,
 				2C8D4ED11B0058C000FFC198 /* Images.xcassets */,
 				2C8D4EC41B0058C000FFC198 /* Supporting Files */,
 			);
@@ -991,7 +986,6 @@
 				2C8D4ECA1B0058C000FFC198 /* AppDelegate.m in Sources */,
 				4213BFE51B1AC91A00F9FE31 /* MainTabBarViewController.m in Sources */,
 				2C8D4EC71B0058C000FFC198 /* main.m in Sources */,
-				425D4F141B18045900BBBADF /* YTAPPManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
