@@ -15,7 +15,8 @@
 
 @implementation BaseNavigationViewController
 
-#pragma mark 一个类只会调用一次
+#pragma mark - 一个类只会调用一次
+
 + (void)initialize
 {
     // 1.取出设置主题的对象
@@ -41,7 +42,8 @@
     [navBar setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"um_menu_icon_back.png"]];
 }
 
-#pragma mark 控制状态栏的样式
+#pragma mark - 控制状态栏的样式
+
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
