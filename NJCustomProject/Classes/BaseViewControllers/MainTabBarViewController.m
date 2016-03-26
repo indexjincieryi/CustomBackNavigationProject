@@ -24,20 +24,22 @@
     [super viewDidLoad];
     [self createViewControllers];
     [self createItems];
-    
-    
 }
--(void)createItems{
+
+- (void)createItems
+{
     //3个数组
     NSArray*titleArray=@[@"First",@"Second",@"Third",@"Fourth",@"Five"];
     NSArray*selectImageNameArray=@[@"tabbar_limitfree_press",@"tabbar_appfree_press",@"tabbar_reduceprice_press",@"tabbar_subject_press",@"tabbar_rank_press"];
     NSArray*UnselectImageNameArray=@[@"tabbar_limitfree",@"tabbar_appfree",@"tabbar_reduceprice",@"tabbar_subject",@"tabbar_rank"];
     
     
-    for (int i=0; i<self.tabBar.items.count; i++) {
+    for (int i=0; i<self.tabBar.items.count; i++)
+    {
         UITabBarItem*item=self.tabBar.items[i];
         
-        if (iOS7) {
+        if (iOS7)
+        {
             //需要对图片进行单独处理
             UIImage*selectImage=[UIImage imageNamed:selectImageNameArray[i]];
             selectImage=[selectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -48,24 +50,27 @@
             item.selectedImage=selectImage;
             item.image=unSelectImage;
             item.title=titleArray[i];
-            
-            
-        }else{
+        }
+        else
+        {
 //            [item setFinishedSelectedImage:[UIImage imageNamed:selectImageNameArray[i]] withFinishedUnselectedImage:[UIImage imageNamed:UnselectImageNameArray[i]]];
 //            item.title=titleArray[i];
             item = [[UITabBarItem alloc] initWithTitle:titleArray[i] image:[UIImage imageNamed:UnselectImageNameArray[i]] selectedImage:[UIImage imageNamed:selectImageNameArray[i]]];
         }
     }
     
-    if (iOS7) {
+    if (iOS7)
+    {
         [[UITabBarItem appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateSelected];
-    }else{
-        [[UITabBarItem appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateSelected];
-        
     }
-    
+    else
+    {
+        [[UITabBarItem appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]} forState:UIControlStateSelected];
+    }
 }
--(void)createViewControllers{
+
+- (void)createViewControllers
+{
     FirstViewController*vc1=[[FirstViewController alloc]init];
     vc1.title=@"FirstViewController";
     BaseNavigationViewController*nc1=[[BaseNavigationViewController alloc]initWithRootViewController:vc1];
@@ -83,21 +88,5 @@
     BaseNavigationViewController*nc5=[[BaseNavigationViewController alloc]initWithRootViewController:vc5];
     self.viewControllers=@[nc1,nc2,nc3,nc4,nc5];
 }
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 @end
